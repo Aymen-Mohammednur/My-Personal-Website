@@ -19,90 +19,61 @@
     <hr>
 
 
-    <img src=".\Asset\Image\3.jpg" alt="Aymen Mohammednur" width="400">
-    <h1>Aymen Mohammednur</h1>
+    <div id="info">
+        <img id="mypic" src=".\Asset\Image\3.jpg" alt="Aymen Mohammednur" width="400">
+        <br><br>
+        <h1 id="head1">Aymen Mohammednur / Contact</h1>
 
-    <h3>Student</h3>
+        <h3>Student</h3>
 
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus voluptate rerum excepturi. Explicabo excepturi nisi maxime
-        autem et necessitatibus molestias optio consectetur tempore ipsum, accusantium quod eos earum pariatur culpa.
-    </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus voluptate rerum excepturi. Explicabo excepturi nisi maxime
+            autem et necessitatibus molestias optio consectetur tempore ipsum, accusantium quod eos earum pariatur culpa.
+        </p>
+    </div>
 
-    <div id="clear"></div>
+    
+    <div class="clear"></div>
 
     <hr>
     
-    <table>
-        <tr>  
-
-            <td> 
                 <h3>Leave me a comment...</h3>  
                 <form method="POST" action="mailto:aymenmohammednur12@gmail.com" enctype="utf-8">
-                    <table cellspacing = "10">
-                        <tr>
-                            <td>
+
                                 <label for="fName">First Name</label>
                                 <br>
-                            </td>
-                            <td>
+
                                 <input type="text" name="fName" id="fName" required pattern="[A-Z][a-z]{1,15}">
                                 <br>
-                            </td>
-                        </tr>
-            
-                        <tr>
-                            <td>
+
                                 <label for="lName">Last Name</label>
                                 <br>
-                            </td>
-                            <td>
+
                                 <input type="text" name="lName" id="lName" required pattern="[A-Z][a-z]{1,15}">
                                 <br>
-                            </td>
-                        </tr>
-                
-                        <tr>
-                            <td>
+  
                                 <label for="email">E-Mail</label>
                                 <br>
-                            </td>
-                            <td>
+   
                                 <input type="email" name="email" id="email">
                                 <br>
-                            </td>
-                        </tr>
-            
-                        <tr>
-                            <td>            
+          
                                 <label for="password">Password</label>
                                 <br>
-                            </td>
-                            <td>
+
                                 <input type="password" name="password" id="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}">
                                 <br>
-                            </td>
-                        </tr>
 
-                        <tr>
-                            <td>
                                 <label for="tel">Telephone - format (251)988-345622</label>
                                 <br>
-                            </td>
-                            <td>
+
                                 (<input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit area code" size="2"/>)-
                                 <input name="tel2" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit prefix" size="2"/> - 
                                 <input name="tel3" type="tel" pattern="[0-9]{6}" placeholder="####" aria-label="6-digit number" size="3"/>
-                            </td>
-                        </tr>
-                        
-                        <tr>
-                            <td>
+
                                 <label for="detail">What do you say?</label>
                                 <br>
-                            </td>
 
-                            <td>
                                 <textarea name="detail" id="" cols="30" rows="10"></textarea>
                                 <br>
                             </td>
