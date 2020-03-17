@@ -137,3 +137,30 @@ table{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
+#labels{
+    float: left;
+    min-width: 135px;
+    padding-right: 20px;
+}
+
+#inputs{
+    padding-left: 250px;
+    align-items: top;
+}
+
+footer{
+    margin-top: 382px;
+}
+
+#questions{
+    margin-top: 75px;
+    margin-left: 20px;
+}
+
+.qlinks{
+    margin-left: 60px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
