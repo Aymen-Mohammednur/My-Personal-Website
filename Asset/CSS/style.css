@@ -17,7 +17,6 @@ header{
 section{
     font-family: Arial, Helvetica, sans-serif;
     padding: 5px 30px;
-    margin-top: 50px;
 }
 
 article{
@@ -29,12 +28,19 @@ article{
 .title{
     font-size: 23px;
     font-weight: bold;
+    text-align: center;
 }
 
 .date{
     font-style: italic;
     font-size: 15px;
     text-transform: uppercase;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+#content{
+    margin-top: 50px;
 }
 
 /* Navigation */
@@ -149,8 +155,8 @@ table{
     align-items: top;
 }
 
-footer{
-    margin-top: 382px;
+#mwfooter{
+    margin-top: 380px;
 }
 
 #questions{
@@ -163,4 +169,19 @@ footer{
     text-decoration: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 17px;
+}
+
+#changes-container{
+    margin-left: 50px;
+}
+
+.changes{
+    font-weight: bold;
+}
+
+.description{
+    margin-left: 50px;
+    margin-top: -10px;
+    text-align: justify;
+    line-height: 25px;
 }
