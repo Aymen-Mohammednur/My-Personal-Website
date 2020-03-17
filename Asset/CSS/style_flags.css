@@ -1,0 +1,355 @@
+/* Austria */
+
+#austria1{
+    border: solid rgb(216, 16, 16) 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+#austria2{
+    border: solid white 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+#austria3{
+    border: solid rgb(216, 16, 16) 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+
+/* Belgium */
+
+#belgium1{
+    border-left: solid black 60px;
+    position: absolute;
+    height: 110px;
+    left: 60px;
+    margin-left: 80px;
+}
+#belgium2{
+    border-left: solid yellow 60px;
+    position: absolute;
+    height: 110px;
+    left: 120px;
+    margin-left: 80px;
+}
+#belgium3{
+    border-left: solid red 60px;
+    position: absolute;
+    height: 110px;
+    left: 180px;
+    margin-left: 80px;
+}
+
+/* Bulgaria */
+
+#bulgaria1{
+    border: solid white 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+#bulgaria2{
+    border: solid green 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+#bulgaria3{
+    border: solid red 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+
+/* Mauritius */
+
+#mauritius1{
+    border: solid red 13.225px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+#mauritius2{
+    border: solid darkblue 13.225px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+#mauritius3{
+    border: solid yellow 13.225px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+#mauritius4{
+    border: solid rgb(19, 161, 19) 13.225px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+
+/* Côte d'Ivoire */
+
+#cotedivoire1{
+    border-left: solid rgb(231, 162, 83) 60px;
+    position: absolute;
+    height: 110px;
+    left: 60px;
+    margin-left: 80px;
+}
+#cotedivoire2{
+    border-left: solid white 60px;
+    position: absolute;
+    height: 110px;
+    left: 120px;
+    margin-left: 80px;
+}
+#cotedivoire3{
+    border-left: solid green 60px;
+    position: absolute;
+    height: 110px;
+    left: 180px;
+    margin-left: 80px;
+}
+
+/* Chad */
+
+#chad1{
+    border-left: solid rgb(26, 98, 233) 60px;
+    position: absolute;
+    height: 110px;
+    left: 60px;
+    margin-left: 80px;
+}
+#chad2{
+    border-left: solid yellow 60px;
+    position: absolute;
+    height: 110px;
+    left: 120px;
+    margin-left: 80px;
+}
+#chad3{
+    border-left: solid red 60px;
+    position: absolute;
+    height: 110px;
+    left: 180px;
+    margin-left: 80px;
+}
+
+/* Colombia */
+
+#colombia1{
+    border: solid yellow 26.25px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+#colombia2{
+    border: solid rgb(26, 98, 233) 13.225px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+#colombia3{
+    border: solid red 13.225px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+
+/* Estonia */
+
+#estonia1{
+    border: solid rgb(20, 69, 160) 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+#estonia2{
+    border: solid black 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+#estonia3{
+    border: solid white 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+
+/* France */
+
+#france1{
+    border-left: solid rgb(26, 64, 233) 60px;
+    position: absolute;
+    height: 110px;
+    left: 60px;
+    margin-left: 80px;
+}
+#france2{
+    border-left: solid white 60px;
+    position: absolute;
+    height: 110px;
+    left: 120px;
+    margin-left: 80px;
+}
+#france3{
+    border-left: solid red 60px;
+    position: absolute;
+    height: 110px;
+    left: 180px;
+    margin-left: 80px;
+}
+
+/* Gabon */
+
+#gabon1{
+    border: solid rgb(33, 156, 33) 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+#gabon2{
+    border: solid yellow 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+#gabon3{
+    border: solid rgb(24, 64, 196) 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+
+/* Germany */
+
+#germany1{
+    border: solid black 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+#germany2{
+    border: solid red 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+#germany3{
+    border: solid gold 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+
+/* Russia */
+
+#russia1{
+    border: solid white 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+#russia2{
+    border: solid rgb(18, 79, 209) 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+#russia3{
+    border: solid red 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+
+/* Nigeria */
+
+#nigeria1{
+    border-left: solid green 60px;
+    position: absolute;
+    height: 110px;
+    left: 60px;
+    margin-left: 80px;
+}
+#nigeria2{
+    border-left: solid white 60px;
+    position: absolute;
+    height: 110px;
+    left: 120px;
+    margin-left: 80px;
+}
+#nigeria3{
+    border-left: solid green 60px;
+    position: absolute;
+    height: 110px;
+    left: 180px;
+    margin-left: 80px;
+}
+
+/* Netherlands */
+
+#netherlands1{
+    border: solid red 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+#netherlands2{
+    border: solid white 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+#netherlands3{
+    border: solid rgb(18, 79, 209) 17.5px;
+    margin-left: 50px;
+    margin-right: 83.8%;
+}
+
+/* Italy */
+
+#italy1{
+    border-left: solid rgb(25, 175, 25) 60px;
+    position: absolute;
+    height: 110px;
+    left: 60px;
+    margin-left: 80px;
+}
+#italy2{
+    border-left: solid white 60px;
+    position: absolute;
+    height: 110px;
+    left: 120px;
+    margin-left: 80px;
+}
+#italy3{
+    border-left: solid red 60px;
+    position: absolute;
+    height: 110px;
+    left: 180px;
+    margin-left: 80px;
+}
+
+/* General CSS */
+
+body{
+    background-color: skyblue;
+    margin: 10px;
+}
+
+header{
+    background-color: rgba(119, 90, 90, 0.5);
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+nav > ul > li{
+    display: inline;
+    padding: 3px 3px;
+    font-size: 17px;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    width: 100%;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+p{
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.border{
+    border-bottom: solid black 1px;
+}
+
+#content{
+    margin-top: 80px;
+    margin-left: 80px;
+}

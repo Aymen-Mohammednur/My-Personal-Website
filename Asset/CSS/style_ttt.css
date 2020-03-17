@@ -14,6 +14,20 @@
     margin-top: -180px;
 }
 
+#horborder1{
+    margin-left: 475px;
+    margin-right: 475px;
+    margin-top: 250px;
+    border-bottom: solid black 4px;
+}
+
+#horborder2{
+    border-bottom: solid black 4px;
+    margin-left: 475px;
+    margin-right: 475px;
+    margin-top: 175px;
+}
+
 #content{
     margin-top: 275px;
 }
@@ -40,18 +54,4 @@ nav > ul > li{
 nav > ul > li > a{
     text-decoration: none;
     width: 100%;
-}
-
-#horborder1{
-    margin-left: 475px;
-    margin-right: 475px;
-    margin-top: 250px;
-    border-bottom: solid black 4px;
-}
-
-#horborder2{
-    border-bottom: solid black 4px;
-    margin-left: 475px;
-    margin-right: 475px;
-    margin-top: 175px;
 }
