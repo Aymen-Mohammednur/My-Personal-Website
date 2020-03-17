@@ -47,13 +47,29 @@ article{
 
 nav > ul > li{
     display: inline;
-    padding: 3px 3px;
+    padding: 3px 9px;
     font-size: 17px;
 }
 
 nav > ul > li > a{
     text-decoration: none;
     width: 100%;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: rgb(58, 14, 216);
+}
+
+a:hover{
+    color: rgb(235, 20, 20);
+}
+
+a:active{
+    color: rgb(212, 226, 9);
 }
 
 .info{
@@ -73,6 +89,37 @@ nav > ul > li > a{
 
 .head1{
     text-transform: uppercase;
+}
+
+#edexpdate{
+    margin-left: 10px;
+}
+
+#edexpschool{
+    margin-left: 40px;
+}
+
+#stjoe{
+    margin-left: 5px;
+}
+
+#right{
+    margin-left: 150px;
+}
+
+#skillsleft, #left{
+    float: left;
+    margin-left: 50px;
+    margin-top: -17.6px;
+}
+
+#skillsright{
+    margin-left: 125px;
+    line-height: 21px;
+}
+
+#fifa, #java{
+    margin-left: 10px;
 }
 
 .clear{
