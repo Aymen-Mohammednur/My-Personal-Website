@@ -1,5 +1,5 @@
 body{
-    background-color: skyblue;
+    background-color: rgb(116, 196, 196);
     /* border: solid lightgray 10px; */
     margin: 10px;
 }
@@ -36,7 +36,7 @@ article{
     font-size: 15px;
     text-transform: uppercase;
     margin-left: 25px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #content{
@@ -69,7 +69,7 @@ nav > ul > li > a:visited{
 }
 
 nav > ul > li > a:hover{
-    color: rgb(235, 20, 20);
+    color: rgb(212, 226, 9);
 }
 
 nav > ul > li > a:active{
@@ -180,6 +180,16 @@ h3{
 p{
     font-size: 1.1rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 25px;
+}
+
+.about{
+    margin-right: 100px;
+    line-height: 25px;
+}
+
+#hobbies li{
+    line-height: 25px;
 }
 
 
@@ -195,11 +205,6 @@ p{
 
 .head3{
     font-size: 1.5rem;
-}
-
-table{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.1rem;
 }
 
 #skills{
@@ -276,7 +281,7 @@ input[type=datetime-local] {
 
 input[type=submit] {
     width: 50%;
-    background-color: rgb(128, 88, 37);
+    background-color: rgb(30, 104, 52);
     color: white;
     padding: 14px 20px;
     margin: 25px 0;
@@ -287,7 +292,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: rgb(155, 115, 63);
+    background-color: rgb(47, 126, 71);
 }
 
 #forrate{
@@ -304,9 +309,9 @@ input[type=submit]:hover {
 }
 
 #form h3{
-    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
-    letter-spacing: 1px;
+    letter-spacing: -0.5px;
 }
 
 #formleft{
@@ -314,7 +319,7 @@ input[type=submit]:hover {
 }
 
 #mwfooter{
-    margin-top: 235px;
+    margin-top: 14.7%;
 }
 
 #mywq{

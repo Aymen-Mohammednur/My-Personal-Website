@@ -312,7 +312,7 @@
 /* General CSS */
 
 body{
-    background-color: skyblue;
+    background-color: rgb(116, 196, 196);
     margin: 10px;
 }
 
@@ -348,7 +348,7 @@ nav > ul > li > a:visited{
 }
 
 nav > ul > li > a:hover{
-    color: rgb(235, 20, 20);
+    color: rgb(212, 226, 9);
 }
 
 nav > ul > li > a:active{
