@@ -23,6 +23,8 @@ article{
     font-size: 15px;
     line-height: 20px;
     text-align: justify;
+    margin-right: 150px;
+    margin-left: 20px;
 }
 
 .title{
@@ -35,7 +37,7 @@ article{
     font-style: italic;
     font-size: 15px;
     text-transform: uppercase;
-    margin-left: 25px;
+    margin-left: 45px;
     margin-top: 20px;
 }
 
@@ -101,8 +103,20 @@ a:visited{
     }
 }
 
-.info{
-    margin-top: 50px;
+.info-flex{
+    margin-top: 70px;
+    display: flex;
+}
+
+.item1{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.item2{
+    margin-top: 10px;
+    margin-left: 80px;
+    text-align: justify;
 }
 
 .img1 {
@@ -163,7 +177,6 @@ h1{
 }
 
 #mypic{
-    float: left;
     width: 380px;
     height: 300px;
     border-radius: 50%;
