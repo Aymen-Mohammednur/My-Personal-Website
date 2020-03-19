@@ -68,12 +68,16 @@ nav > ul > li > a:visited{
     color: white;
 }
 
-nav > ul > li > a:hover{
-    color: rgb(212, 226, 9);
+@media (any-hover: hover) {
+    nav > ul > li > a:hover{
+        color: rgb(212, 226, 9);
+    }
 }
 
-nav > ul > li > a:active{
-    color: rgb(212, 226, 9);
+@media (any-hover: hover) {
+    nav > ul > li > a:active{
+        color: rgb(212, 226, 9);
+    }    
 }
 
 a:link{
@@ -84,12 +88,16 @@ a:visited{
     color: rgb(58, 14, 216);
 }
 
-a:hover{
-    color: rgb(235, 20, 20);
+@media (any-hover: hover) {
+    a:hover{
+        color: rgb(212, 226, 9);
+    }
 }
 
-a:active{
-    color: rgb(212, 226, 9);
+@media (any-hover: hover) {
+    a:active{
+        color: rgb(235, 20, 20);
+    }
 }
 
 .border{
