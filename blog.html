@@ -13,161 +13,162 @@
     </style> -->
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="myworks.html">My Works</a></li>
-            </ul>
-        </nav>
-    </header>
-        
-        <!-- Our Blog -->
-        <div id="content">
 
-            <section>
-                <p class="title">Does using relative size matter?</p>
-
-                <article>
-                    <p>
-                        In my opinion, yes it matters to use relative size like %, em or rem when styling the size of an element. I say this because of the following reasons. 
-                    </p>
-                    <p>
-                        First, we may only want to size a specific element with respect to the size of its parent box. In those cases, using em or rem will be beneficial for us. 
-                        Another reason is when we think about our browsers zoom feature. It is because of the relative size feature that we are able to zoom things on our browsers without changing the actual size of the browser. 
-                    </p>
-                    <p>
-                        All in all, using relative size is advantageous because they offer responsiveness, scalability, improved reading experience, and greater flexibility in defining components.
-                    </p>
-                </article>
-
-                <p class="date">March 17, 2020 - 3:20PM</p>
-
-                <a class="reflinks" href="http://" target="_blank" rel="noopener noreferrer"><p class="reflinks-p">Read More</p></a>
-
-            </section>
-                
-            <section>
-                <p class="title">What does 200px mean and how is it interpreted?</p>
-
-                <article>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem nisi tempora quasi cum eaque officiis fugit est, 
-                        nihil unde asperiores. Vero dolores quisquam corporis?
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem nisi tempora quasi cum eaque officiis fugit est, 
-                        nihil unde asperiores. Vero dolores quisquam corporis?
-                    </p>
-                </article>
-
-                <p class="date">March 19, 2020 - 2:30PM</p>
-
-                <a class="reflinks" href="http://" target="_blank" rel="noopener noreferrer"><p class="reflinks-p">Read More</p></a>
-            </section>
-
-            <section>
-                <p class="title">The Specific Changes in CSS3</p>
-
-                <article>
-                    <p>
-                        CSS3 is the latest evolution of the Cascading Style Sheets language and aims at extending CSS2.1. It brings a lot of new features and additions. <br> 
-                        These changes in technical terms are listed below.
-                    </p>
-
-                    <div id="changes-container">
-                        <p class="changes">1. Selectors</p>
-                        <p class="description">
-                            CSS3 added some new useful and handy selectors. <br>
-                            [attr^=val]: matches a DOM element with the attribute attr and a value starting with val <br>
-                            [attr$=val]: matches a DOM element with the attribute attr and a value ending with the suffix val <br>
-                            [attr*=val]: matches a DOM element with the attribute attr and a value containing the substring val
-
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="myworks.html">My Works</a></li>
+                </ul>
+            </nav>
+        </header>
+            
+            <!-- Our Blog -->
+            <div id="content">
+    
+                <section>
+                    <p class="title">Does using relative size matter?</p>
+    
+                    <article>
+                        <p>
+                            In my opinion, yes it matters to use relative size like %, em or rem when styling the size of an element. I say this because of the following reasons. 
                         </p>
-
-                        <p class="changes">2. Color</p>
-                        <p class="description">
-                            In CSS3 <i>RGBA</i> color assignment was added. RGBA works just like RGB, except that it adds a fourth value: alpha, the opacity level or alpha transparency level. <br>
-                            <u>Example</u>:  rgba(0, 0, 255, 0.5) would give me a 50% transparent blue color.
+                        <p>
+                            First, we may only want to size a specific element with respect to the size of its parent box. In those cases, using em or rem will be beneficial for us. 
+                            Another reason is when we think about our browsers zoom feature. It is because of the relative size feature that we are able to zoom things on our browsers without changing the actual size of the browser. 
                         </p>
-
-                        <p class="changes">3. Rounded-Corners</p>
-                        <p class="description">
-                            CSS3 added a property called <i>border-radius</i> that lets us create rounded images without any outside help. We simply add border-radius: #px; to round our images.
+                        <p>
+                            All in all, using relative size is advantageous because they offer responsiveness, scalability, improved reading experience, and greater flexibility in defining components.
                         </p>
-
-                        <p class="changes">4. Border Image</p>
-                        <p class="description">
-                            Another exciting new feature in CSS3 is the ability to swap out a border with an image. The property <i>border-image</i>  allows us to specify an image to display instead <br> of a plain solid-colored border.
+                    </article>
+    
+                    <p class="date">March 17, 2020 - 3:20PM</p>
+    
+                    <a class="reflinks" href="https://www.sitepoint.com/understanding-and-using-rem-units-in-css/" target="_blank" rel="noopener noreferrer"><p class="reflinks-p">Read More</p></a>
+    
+                </section>
+                    
+                <section>
+                    <p class="title">Meaning and Interpretation of 200px</p>
+    
+                    <article>
+                        <p>
+                            As we can see from its unit, the value 200px has a fixed (absolute) va;ue of 200 unit screen pixels to take place 
+                            for whatever the object/element it is assigned for. It would have an effect if we had used relative measuring units
+                            such as %, rem and em. 
                         </p>
-
-                        <p class="changes">5. Drop Shadows</p>
-                        <p class="description">
-                            CSS3 provides the ability to add drop shadows to elements using the <i>box-shadow</i> property. <br>
-                            A possible example is <i>box-shadow: 2px 5px 0 0 rgba(72,72,72,1);</i> 
+                        <p>
+                            For example, if we use 200% for the font-size property of a text, we will get a 32px (2 times that of the default
+                            16px value) since we are referring with respect to the root width.
                         </p>
-
-                        <p class="changes">6. Text Shadow</p>
-                        <p class="description">
-                            The new <i>text-shadow </i> property allows us to add drop shadows to the text on a webpage. <br>
-                            <u>Example</u>: text-shadow: topOffset leftOffset blurRadius color;
+                    </article>
+    
+                    <p class="date">March 20, 2020 - 10:40AM</p>
+    
+                    <a class="reflinks" href="https://www.w3.org/style/Examples/007/units.en.html" target="_blank" rel="noopener noreferrer"><p class="reflinks-p">Read More</p></a>
+                </section>
+    
+                <section>
+                    <p class="title">The Specific Changes in CSS3</p>
+    
+                    <article>
+                        <p>
+                            CSS3 is the latest evolution of the Cascading Style Sheets language and aims at extending CSS2. It brings a lot of new features and additions. <br> 
+                            These changes in technical terms are listed below.
                         </p>
-
-                        <p class="changes">7. Linear Gradients</p>
-                        <p class="description">
-                            In CSS3, the syntax for generating linear gradients was added. <br>
-                            <i>Syntax</i> - background: linear-gradient(direction, color-stop1, color-stop2, ...); <br>
-                            <u>Example</u>: background: linear-gradient(to right, red , yellow);
-                        </p>
-
-                        <p class="changes">8. Transform (Element Rotation)</p>
-                        <p class="description">
-                            CSS 3 also introduced a property called <i>transform</i> , which enables rotating Web elements on a webpage. <br>
-                            <i> -moz-transform: rotate(90deg);</i> This will rotate the element by 90deg <br>
-                            <i> -webkit-transform: rotate(180deg);</i> This is also possible <br>
-                        </p>
-
-                        <p class="changes">9. Web Fonts</p>
-                        <p class="description"> 
-                            CSS 3 also facilitates embedding any custom font on a webpage. By using the <i>@font-face</i>  property, we can include a font from a remote location and use it. <br>
-                            <u>Example</u>: @font-face {<br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; font-family: myfont_bold; <br>
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; src: url(“myfont.ttf”); <br>
-&emsp;&emsp;&emsp;&emsp;&emsp;}                        
-                        </p>
-
-                        <p class="changes">10. Multicolumn Layout</p>
-                        <p class="description">
-                            In CSS 3, by using the multicolumn layout property we can specify the number of columns we need and they will be created. <br>
-                            <i>-moz-column-count: 3;</i> This will create a 3 column webpage.
-                        </p>
-                    </div>
-                </article>
-
-                <p class="date">March 17, 2020 - 4:10PM</p>
-
-                <a class="reflinks" href="http://" target="_blank" rel="noopener noreferrer"><p class="reflinks-p">Read More</p></a>
-                <br>
-            </section>
-
-        </div>
-
-        <div class="border"></div>
-        <div class="links" align = "center">
-        <a href="https://www.facebook.com/profile.php?id=100004844058220&ref=bookmarks" target="_blank" rel="noopener noreferrer">Facebook</a>
-        <a href="http://t.me/Aymenua" target="_blank" rel="noopener noreferrer">Telegram</a>
-        <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
-        </div>
-
-
-        <div class="border"></div>
-
-
-        <p align ="center">Developed by Aymen Mohammednur &copy;</p>
-
+    
+                        <div id="changes-container">
+                            <p class="changes">1. Selectors</p>
+                            <p class="description">
+                                CSS3 added some new useful and important selectors. <br>
+                                [attr^=val]: matches an element with the attribute attr and a value starting with val <br>
+                                [attr$=val]: matches an element with the attribute attr and a value ending with the suffix val <br>
+                                [attr*=val]: matches an element with the attribute attr and a value containing the substring val
+    
+                            </p>
+    
+                            <p class="changes">2. Color</p>
+                            <p class="description">
+                                In CSS3 <i>RGBA</i> color assignment was added. RGBA works just like RGB, except that it adds a fourth value: alpha, the opacity level or alpha transparency level. <br>
+                                <u>Example</u>:  rgba(0, 0, 255, 0.5) would give me a 50% transparent blue color.
+                            </p>
+    
+                            <p class="changes">3. Rounded-Corners</p>
+                            <p class="description">
+                                CSS3 added a property called <i>border-radius</i> that lets us create rounded images without any outside help. We simply add border-radius: #px; to round our images.
+                            </p>
+    
+                            <p class="changes">4. Border Image</p>
+                            <p class="description">
+                                Another new feature in CSS3 is the ability to swap out a border with an image. The property <i>border-image</i>  allows us to specify an image to display instead of a plain solid-colored border.
+                            </p>
+    
+                            <p class="changes">5. Drop Shadows</p>
+                            <p class="description">
+                                CSS3 provides the ability to add drop shadows to elements using the <i>box-shadow</i> property. <br>
+                                A possible example is <i>box-shadow: 2px 5px 0 0 rgba(72,72,72,1);</i> 
+                            </p>
+    
+                            <p class="changes">6. Text Shadow</p>
+                            <p class="description">
+                                The new <i>text-shadow </i> property allows us to add drop shadows to the text on a webpage. <br>
+                                <u>Example</u>: text-shadow: topOffset leftOffset blurRadius color;
+                            </p>
+    
+                            <p class="changes">7. Linear Gradients</p>
+                            <p class="description">
+                                In CSS3, the syntax for generating linear gradients was added. <br>
+                                <i>Syntax</i> - background: linear-gradient(direction, color-stop1, color-stop2, ...); <br>
+                                <u>Example</u>: background: linear-gradient(to right, red , yellow);
+                            </p>
+    
+                            <p class="changes">8. Transform (Element Rotation)</p>
+                            <p class="description">
+                                CSS 3 also introduced a property called <i>transform</i> , which enables rotating Web elements on a webpage. <br>
+                                <i> -moz-transform: rotate(90deg);</i> This will rotate the element by 90deg <br>
+                                <i> -webkit-transform: rotate(180deg);</i> This is also possible <br>
+                            </p>
+    
+                            <p class="changes">9. Web Fonts</p>
+                            <p class="description"> 
+                                CSS 3 also facilitates embedding any custom font on a webpage. By using the <i>@font-face</i>  property, we can include a font from a remote location and use it. <br>
+                                <u>Example</u>: @font-face {<br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; font-family: myfont_bold; <br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; src: url(“myfont.ttf”); <br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;}                        
+                            </p>
+    
+                            <p class="changes">10. Multicolumn Layout</p>
+                            <p class="description">
+                                In CSS 3, by using the multicolumn layout property we can specify the number of columns we need and they will be created. <br>
+                                <i>-moz-column-count: 3;</i> This will create a 3 column webpage.
+                            </p>
+                        </div>
+                    </article>
+    
+                    <p class="date">March 17, 2020 - 4:10PM</p>
+    
+                    <a class="reflinks" href="http://webreference.com/authoring/css3/index-2.html" target="_blank" rel="noopener noreferrer"><p class="reflinks-p">Read More</p></a>
+                    <br>
+                </section>
+    
+            </div>
+    
+            <div class="border"></div>
+            <div class="links" align = "center">
+            <a href="https://www.facebook.com/profile.php?id=100004844058220&ref=bookmarks" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="http://t.me/Aymenua" target="_blank" rel="noopener noreferrer">Telegram</a>
+            <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+            </div>
+    
+            <div class="border"></div>
+            <p align ="center">Developed by Aymen Mohammednur &copy;</p>
+    </div>
+    
 </body>
 </html>
